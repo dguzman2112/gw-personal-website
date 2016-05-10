@@ -1,0 +1,211 @@
+/*Portfolio Template Styles*/
+/*
+- Primary Color: #
+- Secondary Color: #53efb4 (teal)
+- Complement Color: #
+- linkedin - https://www.linkedin.com/in/rudijackson?authType=NAME_SEARCH&authToken=LFwa&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A362395560%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1456777803039%2Ctas%3Arudi%20jackson
+*/
+
+/*Global Styles*/
+body{
+  margin: 0;
+}
+
+h1, h2, h3{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Heading Styles*/
+header{
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  color: white;
+}
+
+.logo{
+  height: 100%;
+  width: 200px;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul{
+  padding-top: 31px;
+  padding-left: 134px;
+  margin-left: -21px;
+  font-size: 20px;
+}
+
+.menu li{
+  float: left;
+  /*display: inline-block;*/
+  padding: 0 14px;
+}
+/*End Heading Styles*/
+
+#banner{
+  width: 100%;
+  height: 500px;
+  padding-top: 200px;
+  background: url("../img/black&white1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  text-shadow: #000 0px 0px 1px;
+}
+
+#banner h1{
+  font-size: 85px;
+  margin: 20px;
+  color: white;
+}
+
+#banner p{
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+#banner button{
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  border: 2px solid #fff;
+  color: white;
+}
+
+#about{
+  width: 100%;
+  height: 500px;
+  padding-top: 250px;
+  background-color: black;
+  text-align: center;
+}
+
+#about h1{
+  font-size: 30px;
+  color: white;
+}
+
+#about p{
+  font-size: 20px;
+  color: white;
+}
+
+#links{
+  height: 240px;
+  width: 100%;
+  text-align: center;
+  background: url("../img/black&white2.jpg");
+  padding-top: 150px;
+  color: white;
+}
+
+#links a{
+  border: 2.5px;
+  border-color: #53efb4;
+  border-style: solid;
+  padding: 12px;
+  color: #53efb4;
+}
+
+#links p{
+  font-size: 20px;
+  margin: 48px;
+  color: white;
+}
+
+#contact{
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#contact a{
+  color: #53efb4;
+  text-decoration: none;
+}
+
+#contact p{
+  font-size: 20px;
+}
+
+.contact-container{
+  padding-top: 248px;
+  height: 300px;
+  background-color: black;
+}
+
+.sm-icons p{
+display: inline-block;
+margin: 22px 3px;
+padding: 10px;
+border: 2.5px;
+border-color: #53efb4;
+border-style: solid;
+color: #53efb4;
+}
+
+#map{
+width: 100%;
+display: inline-block;
+}
+
+.map-container{
+  width: 100%;
+  height: 350px;
+  background-color: #333
+}
+
+#map iframe{
+  width: 100%;
+  height: 100%;
+  pointer-events:none;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: black;
+  clear: both;
+}
+
+
+
+.copyright p{
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  padding: 91px 0;
